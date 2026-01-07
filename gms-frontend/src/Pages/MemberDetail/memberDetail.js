@@ -441,7 +441,6 @@ const MemberDetail = () => {
                                     onChange={handleUpdateChange}
                                     className="w-full border-2 p-2 rounded"
                                 >
-                                    <option value="">Select Batch</option>
                                     <option value="Morning">Morning</option>
                                     <option value="Evening">Evening</option>
                                 </select>
@@ -469,9 +468,9 @@ const MemberDetail = () => {
                                     onChange={handleUpdateChange}
                                     className="w-full border-2 p-2 rounded"
                                 >
-                                    <option value="">Select Goal</option>
                                     <option value="Cutting">Cutting</option>
                                     <option value="Bulking">Bulking</option>
+                                    <option value="Fatloss">Fat Loss</option>
                                 </select>
                             </div>
 
